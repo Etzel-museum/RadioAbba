@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">הרדיו של אבא</string>
+    <string name="choose_station">בחר תחנה</string>
+    <string name="stop">עצור</string>
+    <string name="connecting">מתחבר…</string>
+    <string name="reconnecting">מתחבר מחדש…</string>
+    <string name="notification_channel_name">ניגון רדיו</string>
+</resources>
