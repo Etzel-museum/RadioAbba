@@ -56,7 +56,7 @@ object StationRepository {
     // it (no internet yet, first run, DNS hiccup, or the URL below hasn't
     // been filled in), it silently falls back to the list bundled below.
     private const val REMOTE_CONFIG_URL =
-        "https://raw.githubusercontent.com/REPLACE_WITH_GITHUB_USERNAME/RadioAbba/main/stations.json"
+        "https://raw.githubusercontent.com/Etzel-museum/RadioAbba/main/stations.json"
 
     private const val TIMEOUT_MS = 4000
 
