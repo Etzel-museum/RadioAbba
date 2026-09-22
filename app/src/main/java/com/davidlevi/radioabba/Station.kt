@@ -130,6 +130,11 @@ object StationRepository {
             "#A0522D"
         ),
         Station(
+            "galei_israel", "גלי ישראל",
+            listOf("https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio"),
+            "#264653"
+        ),
+        Station(
             "102fm", "102FM תל אביב",
             listOf("https://102.livecdn.biz/102fm_aac"),
             "#9A031E"

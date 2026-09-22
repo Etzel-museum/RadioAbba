@@ -11,8 +11,8 @@ android {
         applicationId = "com.davidlevi.radioabba"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 3
+        versionName = "1.2"
     }
 
     // A fixed, committed keystore (not the machine-local ~/.android/debug.keystore,

@@ -66,6 +66,12 @@
     "color": "#A0522D"
   },
   {
+    "id": "galei_israel",
+    "name": "גלי ישראל",
+    "urls": ["https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio"],
+    "color": "#264653"
+  },
+  {
     "id": "102fm",
     "name": "102FM תל אביב",
     "urls": ["https://102.livecdn.biz/102fm_aac"],
