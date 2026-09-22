@@ -43,7 +43,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: הרדיו של אבא – גרסה עדכנית
+          name: רדיו אל ג'ליל – גרסה עדכנית
           body: התקנה - הורד/י את app-debug.apk לטלפון ופתח/י אותו כדי להתקין.
           files: app/build/outputs/apk/debug/app-debug.apk
           make_latest: true
