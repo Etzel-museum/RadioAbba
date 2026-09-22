@@ -164,7 +164,7 @@ class PlaybackService : MediaSessionService() {
             ?: item.localConfiguration?.uri?.toString()?.let { arrayListOf(it) }
             ?: return
         val nextUrl = urls[min(urlIndex, urls.size - 1)]
-        val newItem = item.buildUpon().setUri(nextUrl).build()
+        val newItem = item.buildUpon().setUri(nextUrl).setMimeType(guessMimeType(nextUrl)).build()
         player.setMediaItem(newItem, /* resetPosition= */ true)
         player.prepare()
         player.playWhenReady = true

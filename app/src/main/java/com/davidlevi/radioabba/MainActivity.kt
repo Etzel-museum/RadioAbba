@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
         grid.columnCount = 2
         list.forEach { station ->
             val button = Button(this).apply {
-                text = "${station.name}\n${station.subtitle}"
+                text = station.name
                 setTextColor(Color.WHITE)
                 textSize = 18f
                 setLineSpacing(0f, 1.1f)

@@ -2,64 +2,85 @@
   {
     "id": "kan_bet",
     "name": "כאן ב׳",
-    "subtitle": "חדשות ואקטואליה, בלי פרסומות",
-    "urls": ["https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_BET.mp3"],
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_reshet_bet/live.livx/playlist.m3u8?renditions&dvr=7200000"],
     "color": "#2A6F97"
   },
   {
     "id": "kan_tarbut",
     "name": "כאן תרבות",
-    "subtitle": "תרבות ומוזיקה, בלי פרסומות",
-    "urls": ["https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_TARBUT.mp3"],
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_tarbut/live.livx/playlist.m3u8?renditions&dvr=7200000"],
     "color": "#6A4C93"
   },
   {
     "id": "kan_moreshet",
     "name": "כאן מורשת",
-    "subtitle": "מוזיקה עברית ישנה, בלי פרסומות",
-    "urls": ["https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_MORESHET.mp3"],
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_moreshet/live.livx/playlist.m3u8?renditions&dvr=7200000"],
     "color": "#8A5A44"
   },
   {
     "id": "kan_88",
     "name": "כאן 88",
-    "subtitle": "מוזיקה, בלי פרסומות",
-    "urls": ["https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_88.mp3"],
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_88/live.livx/playlist.m3u8?renditions&dvr=7200000"],
     "color": "#1D7874"
   },
   {
     "id": "kan_reka",
-    "name": "כאן רקע",
-    "subtitle": "מוזיקה רגועה, בלי פרסומות",
-    "urls": ["https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_REKA.mp3"],
+    "name": "כאן רק״ע",
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_reka/live.livx/playlist.m3u8?renditions&dvr=7200000"],
     "color": "#4A6FA5"
+  },
+  {
+    "id": "kan_kol_hamuzika",
+    "name": "כאן קול המוזיקה",
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_kol_hamuzika/live.livx/playlist.m3u8?renditions&dvr=7200000"],
+    "color": "#355C7D"
+  },
+  {
+    "id": "kan_gimel",
+    "name": "כאן גימל",
+    "urls": ["https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/radio/kan_gimel/live.livx/playlist.m3u8?renditions&dvr=7200000"],
+    "color": "#5B8C5A"
   },
   {
     "id": "glglz",
     "name": "גלגלצ",
-    "subtitle": "מוזיקה (יש פרסומות בשידור)",
     "urls": ["https://glzwizzlv.bynetcdn.com/glglz_mp3"],
     "color": "#C1440E"
   },
   {
     "id": "glz",
     "name": "גלי צה״ל",
-    "subtitle": "חדשות (יש פרסומות בשידור)",
     "urls": ["https://glzwizzlv.bynetcdn.com/glz_mp3"],
     "color": "#3D5A2A"
   },
   {
     "id": "103fm",
     "name": "103FM",
-    "subtitle": "אקטואליה (יש פרסומות בשידור)",
     "urls": ["https://cdn.cybercdn.live/103FM/Live/icecast.audio"],
     "color": "#7B2D26"
   },
   {
     "id": "radius100",
     "name": "רדיוס 100",
-    "subtitle": "מוזיקה (יש פרסומות בשידור)",
     "urls": ["https://cdn.cybercdn.live/Radios_100FM/Audio/icecast.audio"],
     "color": "#A0522D"
+  },
+  {
+    "id": "102fm",
+    "name": "102FM תל אביב",
+    "urls": ["https://102.livecdn.biz/102fm_aac"],
+    "color": "#9A031E"
+  },
+  {
+    "id": "kol_barama",
+    "name": "קול ברמה",
+    "urls": ["https://cdn.cybercdn.live/Kol_Barama/Live_Audio/icecast.audio"],
+    "color": "#5F0F40"
+  },
+  {
+    "id": "radio_darom",
+    "name": "רדיו דרום",
+    "urls": ["https://cdn.cybercdn.live/Darom_97FM/Live/icecast.audio"],
+    "color": "#BB4D00"
   }
 ]
