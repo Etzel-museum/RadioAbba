@@ -1,5 +1,6 @@
 package com.davidlevi.radioabba
 
+import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.Network
 import android.net.NetworkCapabilities
@@ -171,6 +172,18 @@ class PlaybackService : MediaSessionService() {
     }
 
     override fun onGetSession(controllerInfo: MediaSession.ControllerInfo): MediaSession = mediaSession
+
+    // Lock-screen / screen-off playback relies on this same foreground
+    // service and must keep working untouched. This is a different signal:
+    // it only fires when the app's card is swiped away from the Recents
+    // (overview) screen. Dad expects that to mean "turn the radio off," so
+    // unlike most music apps (which keep playing through a recents-swipe),
+    // we deliberately stop here.
+    override fun onTaskRemoved(rootIntent: Intent?) {
+        player.pause()
+        stopSelf()
+        super.onTaskRemoved(rootIntent)
+    }
 
     override fun onDestroy() {
         reconnectRunnable?.let { handler.removeCallbacks(it) }

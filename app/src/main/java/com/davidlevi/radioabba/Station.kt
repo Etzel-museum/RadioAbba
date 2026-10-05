@@ -38,7 +38,7 @@ fun Station.toMediaItem(): MediaItem {
         .setMediaMetadata(
             MediaMetadata.Builder()
                 .setTitle(name)
-                .setArtist("רדיו אל ג'ליל")
+                .setArtist("רדיו גליל")
                 .build()
         )
         .setRequestMetadata(
